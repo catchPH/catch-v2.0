@@ -9,7 +9,7 @@
 	.nav
 	{
 		/*position: fixed;*/
-		bottom: -11.5%;
+		/*bottom: -10.8%;*/
 		left: -150%;
 		width: 100%;
 		height: 100vh;
@@ -61,10 +61,10 @@
 	{
 		font-size: 4rem;
 	}
-	.seawater-for-services
+	/*.seawater-for-services
 	{
 		height: 130vh;
-	}
+	}*/
 	.services .content .details .content .fade
 	{
 		width: 80%;
@@ -133,10 +133,10 @@
 	{
 		margin-bottom: 3em;
 	}
-	.seawater-bg
+	/*.seawater-bg
 	{
 		height: 200vh;
-	}
+	}*/
 	.contacts .content .details
 	{
 		padding: 0 1.5rem;
@@ -160,13 +160,72 @@
 		display: none;
 	}
 }
+@media only screen and (min-width: 360px)
+{
+	main .content
+	{
+		max-width: 360px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nav
+	{
+		/*bottom: -7.7%;*/
+	}
+}
+@media only screen and (min-width: 411px)
+{
+	/*body
+	{
+		width: 104.5vw;
+	}*/
+	main .content
+	{
+		max-width: 500px;
+	}
+	.nav
+	{
+		/*bottom: -3.7%;*/
+	}
+}
+/*@media only screen and (min-width: 411px) and (min-height: 823px)
+{
+	.nav
+	{
+		bottom: -2.7%;
+	}	
+}*/
+@media only screen and (min-width: 414px)
+{
+	body
+	{
+		width: 433px;
+	}
+	main .content
+	{
+		max-width: 414px;
+	}
+	.nav
+	{
+		bottom: 35px;
+	}
+}
 @media only screen and (min-width : 375px)
 {
+	#particles-2
+	{
+		height: 100vh;
+		margin: 0;
+	}
 	main .content
 	{
 		max-width: 375px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	.nav
+	{
+		/*bottom: -60px;*/
 	}
 	.banner .content
 	{
@@ -201,10 +260,10 @@
 	{
 		font-size: 4rem;
 	}
-	.seawater-for-services
+	/*.seawater-for-services
 	{
 		height: 135vh;
-	}
+	}*/
 	.services .content .details .content .fade
 	{
 		width: 80%;
@@ -246,10 +305,10 @@
 	{
 		margin-bottom: 3em;
 	}
-	.seawater-bg
+	/*.seawater-bg
 	{
 		height: 200vh;
-	}
+	}*/
 	.contacts .content .details
 	{
 		padding: 0 1.5rem;
@@ -271,6 +330,10 @@
 		max-width: 425px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	.nav
+	{
+		bottom: 10px;
 	}
 	.banner .content
 	{
@@ -301,10 +364,10 @@
 	{
 		font-size: 4rem;
 	}
-	.seawater-for-services
+	/*.seawater-for-services
 	{
 		height: 135vh;
-	}
+	}*/
 	.services .content .details .content .fade
 	{
 		width: 80%;
@@ -361,10 +424,10 @@
 	{
 		margin-bottom: 3em;
 	}
-	.seawater-bg
+	/*.seawater-bg
 	{
 		height: 200vh;
-	}
+	}*/
 	.contacts .content .details
 	{
 		padding: 0 4rem;
@@ -381,6 +444,10 @@
 }
 @media only screen and (min-width : 768px)
 {
+	body
+	{
+		width: 100%;
+	}
 	main .content
 	{
 		max-width: 768px;
@@ -389,6 +456,7 @@
 	}
 	.nav
 	{
+		bottom: 0;
 		left: -150%;
 		width: 100%;
 	}
@@ -435,10 +503,10 @@
 	{
 		width: 100%;
 	}
-	.seawater-for-services
+	/*.seawater-for-services
 	{
 		height: 150vh;
-	}
+	}*/
 	.selectors
 	{
 		width: 2em;
@@ -511,10 +579,10 @@
 	{
 		margin-bottom: 3em;
 	}
-	.seawater-bg
+	/*.seawater-bg
 	{
 		height: 160vh;
-	}
+	}*/
 	.contacts .content .details
 	{
 		padding: 0 7rem;
@@ -540,6 +608,15 @@
 }
 @media only screen and (min-width : 1024px)
 {
+	/*body
+	{
+		width: 100vw;
+	}*/
+	#particles-2
+	{
+		height: 80vh;
+		margin: 0;
+	}
 	main .content
 	{
 		max-width: 1024px;
@@ -606,10 +683,10 @@
 	{
 		width: 20%;
 	}
-	.seawater-for-services
+	/*.seawater-for-services
 	{
 		height: 100vh;
-	}
+	}*/
 	.services .content .details .content .fade
 	{
 		width: 90%;
@@ -660,10 +737,10 @@
 		width: 48%;
 		margin: auto;
 	}
-	.seawater-bg
+	/*.seawater-bg
 	{
-		height: 110vh;
-	}
+		height: 100%;
+	}*/
 	.contacts .content .details .span-6:first-child
 	{
 		margin-bottom: 3em;
@@ -684,6 +761,10 @@
 }
 @media only screen and (min-width : 1200px) 
 {
+	/*body
+	{
+		width: 130.5vw;
+	}*/
 	main .content
 	{
 		max-width: 1200px;
@@ -692,7 +773,16 @@
 	}
 	.banner .content
 	{
+		top: 25%;
 		width: 100%;
+	}
+	.banner .content .title
+	{
+		font-size: 8rem;
+	}
+	.banner .content p
+	{
+		font-size: 2rem;
 	}
 	.services,
 	.contacts
@@ -721,14 +811,14 @@
 	{
 		width: 20%;
 	}
-	.seawater-for-services
+	/*.seawater-for-services
 	{
 		height: 100vh;
-	}
-	.seawater-bg
+	}*/
+	/*.seawater-bg
 	{
 		height: 150vh;
-	}
+	}*/
 	.btn
 	{
 		display: inline-block;
@@ -773,5 +863,27 @@
 	footer
 	{
 		margin-bottom: 7em;
+	}
+}
+@media only screen and (min-width : 1440px)
+{
+	main .content
+	{
+		max-width: 1440px;
+	}
+	.banner .content .title
+	{
+		font-size: 10rem;
+	}
+	.banner .content p
+	{
+		font-size: 3rem;
+	}
+}
+@media only screen and (min-width : 2560px)
+{
+	main .content
+	{
+		max-width: 2560px;
 	}
 }
