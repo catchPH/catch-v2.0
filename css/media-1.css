@@ -1,0 +1,777 @@
+@media only screen and (min-width : 320px)
+{
+	main .content
+	{
+		max-width: 320px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nav
+	{
+		/*position: fixed;*/
+		bottom: -11.5%;
+		left: -150%;
+		width: 100%;
+		height: 100vh;
+	}
+	.nav ul
+	{
+		display: block;
+		text-align: center;
+	}
+	.nav ul li
+	{
+		padding: 0.49em 0;
+		margin: 0;
+	}
+	.banner .content
+	{
+		width: 100%;
+	}
+	.banner .content .title
+	{
+		font-size: 8rem;
+	}
+	.banner .content p
+	{
+		font-size: 1.6rem;
+	}
+	.services,
+	.contacts
+	{
+		width: 100%;
+	}
+	.span-6
+	{
+		width: 100%;
+	}
+	.span-4
+	{
+		width: 100%;
+	}
+	.span-2
+	{
+		width: 100%;
+	}
+	.skills-2 .content .details .span-6 .details-box img
+	{
+		width: 80%;
+	}
+	.title
+	{
+		font-size: 4rem;
+	}
+	.seawater-for-services
+	{
+		height: 130vh;
+	}
+	.services .content .details .content .fade
+	{
+		width: 80%;
+		top: 80%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.selectors
+	{
+		margin: 0.625em 0;
+		width: 2.5em;
+		height: 2.5em;
+		line-height: 2.7em;
+		font-size: 2.5em;
+	}
+	.selectors:hover > .selector-icon-text
+	{
+		font-size: 1.5rem;
+	}
+	.fade-box .box
+	{
+		width: 100%;
+	}
+	.fade-box .box-no-bg
+	{
+		width: 100%;
+	}
+	.img-web-design
+	{
+		height: 100%;
+		width: 100%;
+	}
+	.btn
+	{
+		display: block;
+		height: 3.125em;
+		width: 9.375em;
+		line-height: 3.125em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.card .back .details h3
+	{
+		display: none;
+	}
+	.card .back .details span
+	{
+		display: none;
+	}
+	.card .back .details .icons a
+	{
+		width: 2.8em;
+		height: 2.8em;
+		line-height: 2.8em;
+		font-size: 2.8em;
+	}
+	.card .back .details .icons .des:before,
+	.card .back .details .icons .sys:before,
+	.card .back .details .icons .vec:before,
+	.card .back .details .icons .log:before
+	{
+		width: 2.8em;
+		height: 2.8em;
+	}
+	.contacts .content .details .span-6:first-child
+	{
+		margin-bottom: 3em;
+	}
+	.seawater-bg
+	{
+		height: 200vh;
+	}
+	.contacts .content .details
+	{
+		padding: 0 1.5rem;
+	}
+	.wrap-contact p
+	{
+		width: 100%;
+		font-size: 1.2rem;
+	}
+	footer
+	{
+		margin-bottom: 0;
+	}
+	.fish1, .fish2, .fish3, .fish4, .fish5, .fish6, .fish7, .fish8, .fish9, .fish10,
+	.fish11, .fish12, .fish13, .fish14, .fish15, .fish16, .fish17, .fish18, .fish19, .fish20,
+	.fish21, .fish22, .fish23, .fish24, .fish25, .fish26, .fish27, .fish28, .fish29, .fish30,
+	.school-of-fish1, .school-of-fish2, .school-of-fish3, .school-of-fish4, .school-of-fish5, .school-of-fish6,
+	.school-of-fish7, .school-of-fish8, .school-of-fish9, .school-of-fish10, .school-of-fish11, .school-of-fish12,
+	.school-of-fish13, .school-of-fish14, .school-of-fish15, .school-of-fish16, .school-of-fish17, .school-of-fish18
+	{
+		display: none;
+	}
+}
+@media only screen and (min-width : 375px)
+{
+	main .content
+	{
+		max-width: 375px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.banner .content
+	{
+		width: 100%;
+	}
+	.banner .content p
+	{
+		font-size: 1.3rem;
+	}
+	.services,
+	.contacts
+	{
+		width: 100%;
+	}
+	.span-6
+	{
+		width: 100%;
+	}
+	.span-4
+	{
+		width: 100%;
+	}
+	.span-2
+	{
+		width: 100%;
+	}
+	.skills-2 .content .details .span-6 .details-box img
+	{
+		width: 80%;
+	}
+	.title
+	{
+		font-size: 4rem;
+	}
+	.seawater-for-services
+	{
+		height: 135vh;
+	}
+	.services .content .details .content .fade
+	{
+		width: 80%;
+		top: 80%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.fade-box .box
+	{
+		width: 100%;
+	}
+	.fade-box .box-no-bg
+	{
+		width: 100%;
+	}
+	.img-web-design
+	{
+		height: 100%;
+		width: 100%;
+	}
+	.card .back .details h3
+	{
+		display: none;
+	}
+	.card .back .details span
+	{
+		display: none;
+	}
+	.btn
+	{
+		display: block;
+		height: 3.125em;
+		width: 9.375em;
+		line-height: 3.125em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.contacts .content .details .span-6:first-child
+	{
+		margin-bottom: 3em;
+	}
+	.seawater-bg
+	{
+		height: 200vh;
+	}
+	.contacts .content .details
+	{
+		padding: 0 1.5rem;
+	}
+	.wrap-contact p
+	{
+		width: 100%;
+		font-size: 1.4rem;
+	}
+	footer
+	{
+		margin-bottom: 0;
+	}
+}
+@media only screen and (min-width : 425px)
+{
+	main .content
+	{
+		max-width: 425px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.banner .content
+	{
+		width: 100%;
+	}
+	.banner .content p
+	{
+		font-size: 1.6rem;
+	}
+	.services,
+	.contacts
+	{
+		width: 100%;
+	}
+	.span-6
+	{
+		width: 100%;
+	}
+	.span-4
+	{
+		width: 100%;
+	}
+	.span-2
+	{
+		width: 100%;
+	}
+	.title
+	{
+		font-size: 4rem;
+	}
+	.seawater-for-services
+	{
+		height: 135vh;
+	}
+	.services .content .details .content .fade
+	{
+		width: 80%;
+		top: 80%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.fade-box .box
+	{
+		width: 100%;
+	}
+	.fade-box .box-no-bg
+	{
+		width: 100%;
+	}
+	.img-web-design
+	{
+		height: 100%;
+		width: 100%;
+	}
+	.card .back .details h3
+	{
+		display: none;
+	}
+	.card .back .details span
+	{
+		display: none;
+	}
+	.card .back .details .icons a
+	{
+		width: 3.2em;
+		height: 3.2em;
+		line-height: 3.2em;
+		font-size: 3.2em;
+	}
+	.card .back .details .icons .des:before,
+	.card .back .details .icons .sys:before,
+	.card .back .details .icons .vec:before,
+	.card .back .details .icons .log:before
+	{
+		width: 2.6em;
+		height: 2.6em;
+	}
+	.btn
+	{
+		display: block;
+		height: 3.125em;
+		width: 9.375em;
+		line-height: 3.125em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.contacts .content .details .span-6:first-child
+	{
+		margin-bottom: 3em;
+	}
+	.seawater-bg
+	{
+		height: 200vh;
+	}
+	.contacts .content .details
+	{
+		padding: 0 4rem;
+	}
+	.wrap-contact p
+	{
+		width: 100%;
+		font-size: 1.4rem;
+	}
+	footer
+	{
+		margin-bottom: 0;
+	}
+}
+@media only screen and (min-width : 768px)
+{
+	main .content
+	{
+		max-width: 768px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nav
+	{
+		left: -150%;
+		width: 100%;
+	}
+	.nav ul
+	{
+		display: block;
+		text-align: center;
+	}
+	.nav ul li
+	{
+		padding: 0.49em 0;
+		margin: 0;
+	}
+	.nav ul li a
+	{
+		margin: 2em;
+	}
+	.menu
+	{
+		display: block;
+	}
+	.banner .content
+	{
+		width: 100%;
+	}
+	.banner .content p
+	{
+		font-size: 1.7rem;
+	}
+	.services,
+	.contacts
+	{
+		width: 100%;
+	}
+	.span-6
+	{
+		width: 100%;
+	}
+	.span-4
+	{
+		width: 100%;
+	}
+	.span-2
+	{
+		width: 100%;
+	}
+	.seawater-for-services
+	{
+		height: 150vh;
+	}
+	.selectors
+	{
+		width: 2em;
+		height: 2em;
+		margin: 0.625em;
+		line-height: 2.2em;
+		font-size: 3.0rem;
+	}
+	.selectors:hover > .selector-icon-text
+	{
+		font-size: 2.4rem;
+	}
+	.title
+	{
+		font-size: 5.6rem;
+	}
+	.services .content .details .content .fade
+	{
+		width: 80%;
+		top: 80%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.fade-box .box
+	{
+		width: 100%;
+	}
+	.fade-box .box-no-bg
+	{
+		width: 100%;
+	}
+	.img-web-design
+	{
+		height: 80%;
+		width: 80%;
+	}
+	.card .back .details h3
+	{
+		display: block;
+	}
+	.card .back .details span
+	{
+		display: block;
+	}
+	.btn
+	{
+		display: block;
+		height: 3.125em;
+		width: 9.375em;
+		line-height: 3.125em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.card .back .details .icons a
+	{
+		width: 3.2em;
+		height: 3.2em;
+		line-height: 3.2em;
+		font-size: 3.2em;
+	}
+	.card .back .details .icons .des:before,
+	.card .back .details .icons .sys:before,
+	.card .back .details .icons .vec:before,
+	.card .back .details .icons .log:before
+	{
+		width: 3.2em;
+		height: 3.2em;
+	}
+	.contacts .content .details .span-6:first-child
+	{
+		margin-bottom: 3em;
+	}
+	.seawater-bg
+	{
+		height: 160vh;
+	}
+	.contacts .content .details
+	{
+		padding: 0 7rem;
+	}
+	.wrap-contact p
+	{
+		width: 72%;
+		font-size: 1.8rem;
+	}
+	footer
+	{
+		margin-bottom: 0;
+	}
+	.fish1, .fish2, .fish3, .fish4, .fish5, .fish6, .fish7, .fish8, .fish9, .fish10,
+	.fish11, .fish12, .fish13, .fish14, .fish15, .fish16, .fish17, .fish18, .fish19, .fish20,
+	.fish21, .fish22, .fish23, .fish24, .fish25, .fish26, .fish27, .fish28, .fish29, .fish30,
+	.school-of-fish1, .school-of-fish2, .school-of-fish3, .school-of-fish4, .school-of-fish5, .school-of-fish6,
+	.school-of-fish7, .school-of-fish8, .school-of-fish9, .school-of-fish10, .school-of-fish11, .school-of-fish12,
+	.school-of-fish13, .school-of-fish14, .school-of-fish15, .school-of-fish16, .school-of-fish17, .school-of-fish18
+	{
+		display: block;
+	}
+}
+@media only screen and (min-width : 1024px)
+{
+	main .content
+	{
+		max-width: 1024px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nav
+	{
+		position: fixed;
+		height: auto;
+		width: 100%;
+		bottom: 0;
+		left: 0;
+	}
+	.nav ul
+	{
+		display: flex;
+	}
+	.nav ul li
+	{
+		padding: 0;
+		margin: 0 .7em;
+	}
+	.nav ul li a
+	{
+		margin: 0;
+	}
+	.menu
+	{
+		display: none;
+	}
+	.banner .content
+	{
+		width: 100%;
+	}
+	.banner .content p
+	{
+		font-size: 3rem;
+	}
+	.services,
+	.contacts
+	{
+		width: 100%;
+	}
+	.selector
+	{
+		width: 300px;
+	}
+	[class*="span"]
+	{
+		float: left;
+		min-height: 1px;
+		/*margin-left: 30px;*/
+	}
+	.span-6
+	{
+		width: 50%;
+	}
+	.span-4
+	{
+		width: 33%;
+	}
+	.span-2
+	{
+		width: 20%;
+	}
+	.seawater-for-services
+	{
+		height: 100vh;
+	}
+	.services .content .details .content .fade
+	{
+		width: 90%;
+		top: 100%;
+	}
+	.fade-box .box,
+	.fade-box .box-no-bg
+	{
+		width: 44%;
+		margin-left: 2%;
+		margin-right: 2%; 
+	}
+	.img-web-design
+	{
+		height: 84%;
+		width: 84%;
+	}
+	.btn
+	{
+		display: inline-block;
+		height: 3.125em;
+		width: 9.375em;
+		line-height: 3.125em;
+	}
+	.card .back .details .icons a
+	{
+		width: 3.2em;
+		height: 3.2em;
+		line-height: 3.2em;
+		font-size: 3.2em;
+	}
+	.card .back .details .icons .des:before,
+	.card .back .details .icons .sys:before,
+	.card .back .details .icons .vec:before,
+	.card .back .details .icons .log:before
+	{
+		width: 3.2em;
+		height: 3.2em;
+	}
+	.column.design,
+	.column.system
+	{
+		width: 48%;
+	}
+	.column.logo,
+	.column.vector
+	{
+		width: 48%;
+		margin: auto;
+	}
+	.seawater-bg
+	{
+		height: 110vh;
+	}
+	.contacts .content .details .span-6:first-child
+	{
+		margin-bottom: 3em;
+	}
+	.contacts .content .details
+	{
+		padding: 0 7rem;
+	}
+	.wrap-contact p
+	{
+		width: 72%;
+		font-size: 1.8rem;
+	}
+	footer
+	{
+		margin-bottom: 7em;
+	}
+}
+@media only screen and (min-width : 1200px) 
+{
+	main .content
+	{
+		max-width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.banner .content
+	{
+		width: 100%;
+	}
+	.services,
+	.contacts
+	{
+		width: 100%;
+	}
+	.selector
+	{
+		width: 300px;
+	}
+	[class*="span"]
+	{
+		float: left;
+		min-height: 1px;
+		/*margin-left: 30px;*/
+	}
+	.span-6
+	{
+		width: 50%;
+	}
+	.span-4
+	{
+		width: 33%;
+	}
+	.span-2
+	{
+		width: 20%;
+	}
+	.seawater-for-services
+	{
+		height: 100vh;
+	}
+	.seawater-bg
+	{
+		height: 150vh;
+	}
+	.btn
+	{
+		display: inline-block;
+		height: 3.125em;
+		width: 9.375em;
+		line-height: 3.125em;
+	}
+	.card .back .details .icons a
+	{
+		width: 3.2em;
+		height: 3.2em;
+		line-height: 3.2em;
+		font-size: 3.2em;
+	}
+	.card .back .details .icons .des:before,
+	.card .back .details .icons .sys:before,
+	.card .back .details .icons .vec:before,
+	.card .back .details .icons .log:before
+	{
+		width: 3.2em;
+		height: 3.2em;
+	}
+	.column.design,
+	.column.system
+	{
+		width: 48%;
+	}
+	.column.logo,
+	.column.vector
+	{
+		width: 31.5%
+	}
+	.contacts .content .details
+	{
+		padding: 0 7rem;
+	}
+	.wrap-contact p
+	{
+		width: 72%;
+		font-size: 1.8rem;
+	}
+	footer
+	{
+		margin-bottom: 7em;
+	}
+}
