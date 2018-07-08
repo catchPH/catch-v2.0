@@ -1202,7 +1202,7 @@ footer
 	opacity: .5;
 }
 
-/*@keyframes animate1
+@keyframes animate1
 {
 	0%
 	{
@@ -1251,7 +1251,7 @@ footer
 		transform: translateY(-50px);
 		left: 150%;
 	}
-}*/
+}
 @keyframes pulse_animation 
 {
 	0%
