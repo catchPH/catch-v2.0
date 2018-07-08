@@ -14,8 +14,10 @@ body
 }
 @font-face {
     font-family: 'Dusha V5';
-    src: url('fonts/Dusha/DushaV5-Regular.woff2') format('woff2'),
-        url('fonts/Dusha/DushaV5-Regular.woff') format('woff');
+    src: url('fonts/Dusha/DushaV5-Regular.oet') format('embedded-opentype'), 
+    	 url('fonts/Dusha/DushaV5-Regular.ttf') format('truetype'),
+    	 url('fonts/Dusha/DushaV5-Regular.woff2') format('woff2'),
+         url('fonts/Dusha/DushaV5-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
