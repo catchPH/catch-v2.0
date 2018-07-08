@@ -133,10 +133,10 @@
 	{
 		margin-bottom: 3em;
 	}
-	/*.seawater-bg
+	.seawater-bg
 	{
-		height: 200vh;
-	}*/
+		height: 180vh;
+	}
 	.contacts .content .details
 	{
 		padding: 0 1.5rem;
@@ -171,6 +171,10 @@
 	.nav
 	{
 		/*bottom: -7.7%;*/
+	}
+	.seawater-bg
+	{
+		height: 140vh;
 	}
 }
 @media only screen and (min-width: 411px)
@@ -305,10 +309,10 @@
 	{
 		margin-bottom: 3em;
 	}
-	/*.seawater-bg
+	.seawater-bg
 	{
-		height: 200vh;
-	}*/
+		height: 160vh;
+	}
 	.contacts .content .details
 	{
 		padding: 0 1.5rem;
@@ -579,10 +583,10 @@
 	{
 		margin-bottom: 3em;
 	}
-	/*.seawater-bg
+	.seawater-bg
 	{
-		height: 160vh;
-	}*/
+		height: 110vh;
+	}
 	.contacts .content .details
 	{
 		padding: 0 7rem;
@@ -737,10 +741,10 @@
 		width: 48%;
 		margin: auto;
 	}
-	/*.seawater-bg
+	.seawater-bg
 	{
-		height: 100%;
-	}*/
+		height: 120vh;
+	}
 	.contacts .content .details .span-6:first-child
 	{
 		margin-bottom: 3em;
