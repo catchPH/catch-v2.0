@@ -1120,13 +1120,13 @@ footer
 }
 .fish15
 {
-	top: 65%;
+	top: 55%;
 	height: 12em;
 	animation: animate1 30s linear infinite;
 }
 .fish16
 {
-	top: 70%;
+	top: 60%;
 	height: 15em;
 	animation: animate2 20s linear infinite;
 }
@@ -1138,19 +1138,19 @@ footer
 }
 .fish18
 {
-	top: 80%;
+	top: 70%;
 	height: 13em;
 	animation: animate2 25s linear infinite;
 }
 .fish19
 {
-	top: 85%;
+	top: 75%;
 	height: 13em;
 	animation: animate1 30s linear infinite;
 }
 .fish20
 {
-	top: 90%;
+	top: 80%;
 	height: 13em;
 	animation: animate1 25s linear infinite;
 }
