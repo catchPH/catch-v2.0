@@ -38,7 +38,7 @@ body
 {
 	font-size: 2.4rem;
 }
-.img-web-system
+/*.img-web-system
 {
 	height: 83%;
 	width: 83%;
@@ -47,7 +47,7 @@ body
 {
 	height: 100%;
 	width: 100%;
-}
+}*/
 #about,
 #skills,
 #design
@@ -1204,7 +1204,7 @@ footer
 	opacity: .5;
 }
 
-@keyframes animate1
+/*@keyframes animate1
 {
 	0%
 	{
@@ -1253,7 +1253,7 @@ footer
 		transform: translateY(-50px);
 		left: 150%;
 	}
-}
+}*/
 @keyframes pulse_animation 
 {
 	0%
