@@ -176,6 +176,10 @@
 	{
 		height: 140vh;
 	}
+	.seawater-for-services
+	{
+		height: 120vh;
+	}
 }
 @media only screen and (min-width: 411px)
 {
@@ -264,10 +268,10 @@
 	{
 		font-size: 4rem;
 	}
-	/*.seawater-for-services
+	.seawater-for-services
 	{
-		height: 135vh;
-	}*/
+		height: 130vh;
+	}
 	.services .content .details .content .fade
 	{
 		width: 80%;
@@ -368,10 +372,10 @@
 	{
 		font-size: 4rem;
 	}
-	/*.seawater-for-services
+	.seawater-for-services
 	{
 		height: 135vh;
-	}*/
+	}
 	.services .content .details .content .fade
 	{
 		width: 80%;
@@ -507,10 +511,6 @@
 	{
 		width: 100%;
 	}
-	/*.seawater-for-services
-	{
-		height: 150vh;
-	}*/
 	.selectors
 	{
 		width: 2em;
@@ -582,6 +582,10 @@
 	.contacts .content .details .span-6:first-child
 	{
 		margin-bottom: 3em;
+	}
+	.seawater-for-services
+	{
+		height: 140vh;
 	}
 	.seawater-bg
 	{
@@ -687,10 +691,10 @@
 	{
 		width: 20%;
 	}
-	/*.seawater-for-services
+	.seawater-for-services
 	{
-		height: 100vh;
-	}*/
+		height: 80vh;
+	}
 	.services .content .details .content .fade
 	{
 		width: 90%;

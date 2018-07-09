@@ -975,9 +975,6 @@ textarea
 }
 .seawater-for-services
 {
-	height: 100%;
-	padding: 0;
-	margin: 0;
 	background: linear-gradient(to top, #085078, #85d8ce);
 	background-attachment: fixed;
 }
@@ -1105,55 +1102,55 @@ footer
 }
 .fish12
 {
-	top: 30%;
+	top: 20%;
 	height: 10em;
 	animation: animate1 25s linear infinite;
 }
 .fish13
 {
-	top: 50%;
+	top: 30%;
 	height: 11em;
 	animation: animate1 13s linear infinite;
 }
 .fish14
 {
-	top: 60%;
+	top: 40%;
 	height: 12em;
 	animation: animate2 18s linear infinite;
 }
 .fish15
 {
-	top: 90%;
+	top: 60%;
 	height: 12em;
 	animation: animate1 30s linear infinite;
 }
 .fish16
 {
-	top: 100%;
+	top: 80%;
 	height: 15em;
 	animation: animate2 20s linear infinite;
 }
 .fish17
 {
-	top: 110%;
+	top: 90%;
 	height: 13em;
 	animation: animate1 25s linear infinite;
 }
 .fish18
 {
-	top: 140%;
+	top: 110%;
 	height: 13em;
 	animation: animate2 25s linear infinite;
 }
 .fish19
 {
-	top: 170%;
+	top: 130%;
 	height: 13em;
 	animation: animate1 30s linear infinite;
 }
 .fish20
 {
-	top: 190%;
+	top: 150%;
 	height: 13em;
 	animation: animate1 25s linear infinite;
 }
