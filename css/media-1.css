@@ -159,6 +159,24 @@
 	{
 		display: none;
 	}
+	.img-web-design
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: none;
+	}
+	.img-web-system
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: none;
+	}
+	.img-vector
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: none;
+	}
 }
 @media only screen and (min-width: 360px)
 {
@@ -175,6 +193,24 @@
 	.seawater-bg
 	{
 		height: 140vh;
+	}
+	.img-web-design
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: none;
+	}
+	.img-web-system
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: none;
+	}
+	.img-vector
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: none;
 	}
 	/*.seawater-for-services
 	{
@@ -323,6 +359,24 @@
 	{
 		margin-bottom: 0;
 	}
+	.img-web-design
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: none;
+	}
+	.img-web-system
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: none;
+	}
+	.img-vector
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: none;
+	}
 }
 @media only screen and (min-width : 425px)
 {
@@ -442,6 +496,24 @@
 	{
 		margin-bottom: 0;
 	}
+	.img-web-design
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: none;
+	}
+	.img-web-system
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: none;
+	}
+	.img-vector
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: none;
+	}
 }
 @media only screen and (min-width : 768px)
 {
@@ -537,8 +609,21 @@
 	}
 	.img-web-design
 	{
-		height: 80%;
-		width: 80%;
+		/*height: 80%;
+		width: 80%;*/
+		display: none;
+	}
+	.img-web-system
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: none;
+	}
+	.img-vector
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: none;
 	}
 	.card .back .details h3
 	{
@@ -609,6 +694,24 @@
 }
 @media only screen and (min-width : 1024px)
 {
+	.img-web-design
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: block;
+	}
+	.img-web-system
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: block;
+	}
+	.img-vector
+	{
+		/*height: 80%;
+		width: 80%;*/
+		display: block;
+	}
 	/*body
 	{
 		width: 100vw;
@@ -705,6 +808,16 @@
 		height: 84%;
 		width: 84%;
 	}
+	.img-web-system
+{
+	height: 83%;
+	width: 83%;
+}
+.img-vector
+{
+	height: 100%;
+	width: 100%;
+}
 	.btn
 	{
 		display: inline-block;
