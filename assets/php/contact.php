@@ -10,13 +10,15 @@ $message = $_POST["message"];
 ini_set("smtp_port","25");
 ini_set("send_email", $_POST["to"]);*/
 
-if(mail($recepient, $subject, $message, $sender))
+mail($recepient, $subject, $message, $sender);
+
+/*if(mail($recepient, $subject, $message, $sender))
 {
 	print "<p class='success'>Mail Sent.</p>";
 }
 else
 {
 	print "<p class='error'>Problem in Sending Mail.</p>";
-}
+}*/
 
 ?>
