@@ -2,9 +2,8 @@ function sendEmail()
 { 
 	var from_name = $('#name').val();
 	var from_email = $('#email').val();
-	var subject = 'new email has arrived!';
 	var message = $('#message').val();
-	var data_string = 'fromName='+from_name+'&fromEmail='+from_email+'&subject='+subject+'&message='+message;
+	var data_string = 'fromName='+from_name+'&fromEmail='+from_email+'&message='+message;
 	var valid;
 	valid = validateEmail();
 	if(valid)
