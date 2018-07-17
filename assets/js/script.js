@@ -66,9 +66,11 @@ $(document).ready(function(){
 /* ---------- Start Codes for Contact - Inputs (Materialize) ---------- */
 $(".contact-input").focus(function(){
 	$(this).parent().addClass("focus");
+	$('.contact-info').addClass('focus');
 	}).blur(function(){
 		if($(this).val() === ''){
 		$(this).parent().removeClass("focus");
+		$('.contact-info').removeClass('focus');
 	}
 })
 /* ---------- End Codes for Contact - Inputs (Materialize) ---------- */

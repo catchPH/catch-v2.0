@@ -469,20 +469,21 @@
 						<div class="span-6">
 							<div class="details-box">
 							<h3 class="contact-title">send a message</h3>
-							<form>
+							<form action="" method="post" id="frmContactCatch">
+								<p class="contact-email-status"></p>
 								<div class="contact-box">
-								<div class="contact-text">NAME</div>
-								<input type="text" name="" class="contact-input">
+									<label class="contact-text">NAME<span id="lblName" class="contact-info"></span></label>
+									<input type="text" name="name" id="name" class="contact-input" required="required">
 								</div>
 								<div class="contact-box">
-									<div class="contact-text">EMAIL ADDRESS</div>
-									<input type="text" name="" class="contact-input">
+									<label class="contact-text">EMAIL ADDRESS<span id="lblEmail" class="contact-info"></span></label>
+									<input type="text" name="email" id="email" class="contact-input" required="required">
 								</div>
 								<div class="contact-box">
-								<div class="contact-text">MESSAGE</div>
-									<textarea class="contact-input"></textarea>
+								<label class="contact-text">MESSAGE <span id="lblMessage" class="contact-info"></span></label>
+									<textarea name="message" id="message" class="contact-input" required="required"></textarea>
 								</div>
-								<button class="contact-button">SEND MESSAGE</button>
+								<button type="button" id="btnSendMessage" onclick="sendEmail();" class="contact-button">SEND MESSAGE</button>
 							</form>
 						</div>
 					</div>
@@ -502,10 +503,11 @@
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
-	<script type="text/javascript" src="assets/js/particles.js"></script>
-	<script type="text/javascript" src="assets/js/app.js"></script>
-	<script type="text/javascript" src="assets/js/loading-bar.js"></script>
-	<script type="text/javascript" src="assets/js/script.js"></script>
+	<script src="assets/js/particles.js"></script>
+	<script src="assets/js/app.js"></script>
+	<script src="assets/js/loading-bar.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script src="assets/js/php.js"></script>
 
 </body>
 </html>
