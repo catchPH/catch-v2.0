@@ -204,7 +204,7 @@ p
   text-decoration: none;
   transition: .5s;
 }
-.links.active
+.links.actived
 {
   color: #fff;
   background: #1abc9c;
@@ -715,7 +715,7 @@ ul.social li a:hover
 .card .back .details span
 {
   display: none;
-  font-family: 'Roboto';
+  font-family: 'Raleway';
   font-size: 1.4rem;
   margin: 0;
   padding: 0;
@@ -1029,37 +1029,37 @@ footer
 {
   top: 5%;
   height: 2em;
-  animation: animate1 30s linear infinite;
+  animation: animate1 60s linear infinite;
 }
 .fish2, .fish22
 {
   top: 15%;
   height: 2em;
-  animation: animate1 25s linear infinite;
+  animation: animate1 55s linear infinite;
 }
 .fish3, .fish23
 {
   top: 25%;
   height: 3em;
-  animation: animate1 20s linear infinite;
+  animation: animate1 50s linear infinite;
 }
 .fish4, .fish24
 {
   top: 35%;
   height: 4em;
-  animation: animate2 15s linear infinite;
+  animation: animate2 45s linear infinite;
 }
 .fish5, .fish25
 {
   top: 45%;
   height: 4em;
-  animation: animate1 10s linear infinite;
+  animation: animate1 40s linear infinite;
 }
 .fish6, .fish26
 {
   top: 55%;
   height: 7em;
-  animation: animate2 9s linear infinite;
+  animation: animate2 35s linear infinite;
 }
 .fish7, .fish27
 {
@@ -1071,13 +1071,13 @@ footer
 {
   top: 75%;
   height: 5em;
-  animation: animate2 25s linear infinite;
+  animation: animate2 125s linear infinite;
 }
 .fish9, .fish29
 {
   top: 85%;
   height: 5em;
-  animation: animate1 20s linear infinite;
+  animation: animate1 80s linear infinite;
 }
 .fish10, .fish30
 {
@@ -1091,61 +1091,61 @@ footer
 {
   top: 10%;
   height: 2em;
-  animation: animate1 8s linear infinite;
+  animation: animate1 80s linear infinite;
 }
 .fish12
 {
   top: 20%;
   height: 2em;
-  animation: animate1 10s linear infinite;
+  animation: animate1 67s linear infinite;
 }
 .fish13
 {
   top: 30%;
   height: 3em;
-  animation: animate1 15s linear infinite;
+  animation: animate1 57s linear infinite;
 }
 .fish14
 {
   top: 40%;
   height: 4em;
-  animation: animate2 20s linear infinite;
+  animation: animate2 47s linear infinite;
 }
 .fish15
 {
   top: 50%;
   height: 4em;
-  animation: animate1 25s linear infinite;
+  animation: animate1 37s linear infinite;
 }
 .fish16
 {
   top: 60%;
   height: 7em;
-  animation: animate2 30s linear infinite;
+  animation: animate2 27s linear infinite;
 }
 .fish17
 {
   top: 70%;
   height: 5em;
-  animation: animate1 8s linear infinite;
+  animation: animate1 17s linear infinite;
 }
 .fish18
 {
   top: 80%;
   height: 5em;
-  animation: animate2 10s linear infinite;
+  animation: animate2 77s linear infinite;
 }
 .fish19
 {
   top: 90%;
   height: 5em;
-  animation: animate1 15s linear infinite;
+  animation: animate1 63s linear infinite;
 }
 .fish20
 {
   top: 95%;
   height: 5em;
-  animation: animate1 20s linear infinite;
+  animation: animate1 53s linear infinite;
 }
 
 
@@ -1167,7 +1167,7 @@ footer
 {
   top: 5%;
   height: 5em;
-  animation: animate1 60s linear infinite;
+  animation: animate1 90s linear infinite;
   opacity: .5;
 }
 .school-of-fish4, .school-of-fish10
