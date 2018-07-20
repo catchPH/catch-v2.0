@@ -3,21 +3,43 @@ function sendEmail()
 	var from_name = $('#name').val();
 	var from_email = $('#email').val();
 	var message = $('#message').val();
-	var data_string = 'fromName='+from_name+'&fromEmail='+from_email+'&message='+message;
+	var data_string = 'name='+from_name+'&email='+from_email+'&message='+message;
 	var valid;
 	valid = validateEmail();
+
 	if(valid)
-	{
+	{	
+		$('.contact-button').addClass('loading');
 		$.ajax({
-			type: 'POST',
+			method: 'POST',
 			url: 'assets/php/contact.php',
 			data: data_string,
+			dataType: 'json',
 			success: function(data)
 			{
-				$('.contact-email-status').html(data);
-			},
-			error: function(){}
-		});
+				console.log(data);
+				if(data.status == 'sent')
+				{
+					setTimeout(function(){
+						$('.contact-button').addClass('hide');
+						$('.done').addClass('finish');	
+						$('.contact-input').val('');
+					}, 3000)
+				}
+				else
+				{
+					$('.contact-button').addClass('hide');
+					$('.failed').addClass('finish');
+					$('.contact-input').val('');					
+				}
+				setTimeout(function(){
+					$('.contact-button').removeClass('loading');
+				    $('.contact-button').removeClass('hide');
+				    $('.done').removeClass('finish');
+				    $('.failed').removeClass('finish');
+				}, 5000);
+			}
+		})
 	}
 }
 

@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,600,400);
 
 html, body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 10px;
 }
 body
@@ -108,7 +108,7 @@ p
 {
   position: relative;
   top: 150px;
-  padding: 3em 3.125em;
+  padding: 3em 0;
 }
 #particles-2 .content .title, #particles-2 .content .pre-title
 {
@@ -811,7 +811,7 @@ ul.social li a:hover
 }
 .home, .phone, .mail
 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 1.25em;
   position: relative;
   padding: 0.125em 0 0 4em;
@@ -848,6 +848,12 @@ ul.social li a:hover
 .phone, .mail
 {
     padding-top: 1em;
+}
+.contact-email-status
+{
+    font-family: 'Dusha V5';
+    font-weight: 400;
+    font-size: 1.8rem;
 }
 .contact-box
 {
@@ -905,27 +911,81 @@ textarea
     height: 5em !important;
     resize: none;
 }
+.contact-button-holder
+{
+    position: relative;
+    /*display: block;*/
+    width: 100%;
+    height: 5em;
+    text-align: center;
+    color: #fff;
+}
 .contact-button
 {
-    float: left;
-    background: none;
+    /*float: left;*/
+    background: rgba(26, 188, 156, 1);
+    appearance: none;
+    outline: none;
     color: #fff;
     width: 100%;
-    height: 3.125em;
+    height: 100%;
     border-radius: 50px;
-    border: 1px solid #fff;
+    border: 1px solid #1abc9c;
     font-size: 1.7rem;
     box-sizing: border-box;
+    box-shadow: 0 0 20px #1abc9c, inset 0 0 20px #1abc9c;
     cursor: pointer;
     transition: .5s;
 }
-.contact-button:hover
+/*.contact-button:hover
 {
     background: rgba(26, 188, 156, 1);
     border: 1px solid #1abc9c;
     color: #fff;
     text-shadow: 0 0 5px #fff;
     box-shadow: 0 0 20px #1abc9c, inset 0 0 20px #1abc9c;
+}*/
+.loading
+{
+    font-size: 0;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 0;
+    border: 3px solid #FFFFFF;
+    border-bottom: 3px solid rgba(255,255,255,0.0);
+    border-left: 3px solid rgba(255,255,255,0.0);
+    background-color: transparent !important;
+    box-shadow: none;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+}
+.hide
+{
+  opacity: 0;
+  transform: rotate(0deg) !important;
+  transform: scale(0) !important;
+}
+.fa-check, .fa-close
+{
+  position: absolute;
+  left: 43%;
+  top: 3px;
+  color: #fff;
+  font-size: 2.4rem !important;
+  background: rgba(26, 188, 156, 1);
+  box-shadow: 0 0 20px #1abc9c, inset 0 0 20px #1abc9c;
+  border-radius: 50%;
+  padding: 10px;
+  transform: scale(0) !important;
+  transition: .5s;
+}
+.finish
+{
+  transform: scale(1) !important;
 }
 footer
 {
@@ -1256,4 +1316,15 @@ footer
   {
     opacity: 1;
   }
+}
+@keyframes rotate
+{
+    0%
+    {
+      transform: rotate(0deg);
+    }
+    100%
+    {
+      transform: rotate(360deg);
+    }
 }

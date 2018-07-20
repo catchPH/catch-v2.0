@@ -462,7 +462,7 @@
 									<p>+63 935 449 0667</p>
 								</div>
 								<div class="wrap-contact mail">
-									<p>CATCHOFFICIAL@GMAIL.COM</p>
+									<p>CATCHPHILIPPINES@GMAIL.COM</p>
 								</div>
 							</div>
 						</div>
@@ -470,7 +470,7 @@
 							<div class="details-box">
 							<h3 class="contact-title">send a message</h3>
 							<form action="" method="post" id="frmContactCatch">
-								<p class="contact-email-status"></p>
+								<span class="contact-email-status"></span>
 								<div class="contact-box">
 									<label class="contact-text">NAME<span id="lblName" class="contact-info"></span></label>
 									<input type="text" name="name" id="name" class="contact-input" required="required">
@@ -483,7 +483,11 @@
 								<label class="contact-text">MESSAGE <span id="lblMessage" class="contact-info"></span></label>
 									<textarea name="message" id="message" class="contact-input" required="required"></textarea>
 								</div>
-								<button type="button" id="btnSendMessage" onclick="sendEmail();" class="contact-button">SEND MESSAGE</button>
+								<div class="contact-button-holder">
+									<div class="fa fa-check done"></div>
+									<div class="fa fa-close failed"></div>
+									<input type="button" id="btnSendMessage" onclick="sendEmail()" class="contact-button" value="SEND"/>
+								</div>
 							</form>
 						</div>
 					</div>
@@ -506,8 +510,8 @@
 	<script src="assets/js/particles.js"></script>
 	<script src="assets/js/app.js"></script>
 	<script src="assets/js/loading-bar.js"></script>
-	<script src="assets/js/script.js"></script>
 	<script src="assets/js/php.js"></script>
+	<script src="assets/js/script.js"></script>
 
 </body>
 </html>
