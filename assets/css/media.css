@@ -146,11 +146,11 @@
 	{
     	padding: 0.5em;
 	}
-	.column.design, .column.system, .column.logo
+	.column.design, .column.system
 	{
 		width: 48.8%;
 	}
-	.column.vector
+	.column.vector, .column.logo
 	{
 		width: 31.5%;
 	}
