@@ -1,0 +1,164 @@
+@media only screen and (min-width: 320px)
+{
+	.title
+	{
+		font-size: 3.5rem;
+	}
+	.card .back .details .icons a
+	{
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 20px;
+	}
+	.card .back .details .icons .des:before,
+	.card .back .details .icons .sys:before,
+	.card .back .details .icons .vec:before,
+	.card .back .details .icons .log:before
+	{
+		width: 50px;
+		height: 50px;
+	}
+}
+@media only screen and (min-width: 425px)
+{
+	.title
+	{
+		font-size: 5rem;
+	}
+	.pre-title
+	{
+		font-size: 1.8rem;
+	}
+	.home, .phone, .mail
+	{
+		font-size: 1.5rem;
+	}
+	.footer p
+	{
+		font-size: 1.6rem;
+	}
+}
+@media only screen and (min-width: 768px)
+{
+	.banner .content .title
+	{
+		font-size: 10rem;
+	}
+	.banner .content h3
+	{
+		font-size: 2.4em;
+	}
+	.services .content .details ul
+	{
+		display: inline-flex;
+	}
+	.column.logo, .column.vector
+	{
+		width: 48.8%;
+	}
+	.card .back .details h3
+	{
+		display: block;
+	}
+	.card .back .details span
+	{
+		display: block;
+	}
+	.contact-button-holder
+	{
+		width: 12.5em;
+	}
+	.fish
+	{
+		display: block;
+	}
+}
+@media only screen and (width: 1024px) and (height: 1366px)
+{
+	footer
+	{
+		bottom: -60vh;
+	}
+}
+@media only screen and (min-width: 1024px)
+{
+	.nav
+	{
+		display: block;
+		height: auto;
+		left: 0;
+	}
+	.nav ul
+	{
+		display: flex;
+	}
+	.nav ul li
+	{
+		padding: 0;
+		margin: 0 1em;
+		text-align: none;
+	}
+	.nav ul li a
+	{
+		margin: 0;
+	}
+	.menu
+	{
+		display: none;
+	}
+	[class*="span"]
+	{
+		float: left;
+		min-height: 1px;
+	}
+	.span-6
+	{
+		width: 50%;
+	}
+	.span-4
+	{
+		width: 33%;
+	}
+	.span-2
+	{
+		width: 20%;
+	}
+	.skills-2 .content .details .span-6 .details-box img
+	{
+    	width: 60%;
+	}
+	.fade-box .box, .fade-box .box-no-bg
+	{
+		width: 48%;
+	}
+	.portfolio .content .details .selector .btn
+	{
+		display: inline-block;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.row
+	{
+  		margin: 3rem;
+	}
+	.row, .row > .column 
+	{
+    	padding: 0.5em;
+	}
+	.column.design, .column.system
+	{
+		width: 48.8%;
+	}
+	.column.vector, .column.logo
+	{
+		width: 31.5%;
+	}
+}
+@media only screen and (min-width: 1200px)
+{
+	.column.logo
+	{
+		width: 31.5%;
+	}
+}
